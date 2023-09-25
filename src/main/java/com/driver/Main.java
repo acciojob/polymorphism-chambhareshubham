@@ -8,7 +8,7 @@ public class Main {
     double ans2= p.product(10d,1000d);
     System.out.print(ans+" "+ ans2+" " +ans1);
     }
-    static class Product{
+  public static class Product{
         public int product(int x, int y){
             return x*y;
         }
